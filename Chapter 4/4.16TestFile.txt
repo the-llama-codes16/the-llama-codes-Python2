@@ -1,0 +1,6 @@
+The input to this program is the name of a text file. The outputs are the number of
+sentences, words, and syllables in the file, as well as the file’s Flesch Index and Grade
+Level Equivalent.
+During analysis, we consult experts in the problem domain to learn any information
+that might be relevant in solving the problem. For our problem, this information
+includes the definitions of sentence, word, and syllable.

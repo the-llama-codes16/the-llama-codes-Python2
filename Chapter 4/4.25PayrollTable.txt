@@ -1,0 +1,5 @@
+Saldua 950 90
+Montejo 875 84
+Garcia 1050 91
+Sanchez 925 90
+Lopez 830 89

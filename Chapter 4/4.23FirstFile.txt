@@ -1,0 +1,15 @@
+Lists
+A list is a sequence of data values called items or elements. An item can be of any type.
+Here are some real-world examples of lists:
+•• A shopping list for the grocery store
+•• A to-do list
+•• A roster for an athletic team
+•• A guest list for a wedding
+•• A recipe, which is a list of instructions
+•• A text document, which is a list of lines
+•• The names in a phone book
+The logical structure of a list resembles the structure of a string. Each of the items in a list is
+ordered by position. Like a character in a string, each item in a list has a unique index that
+specifies its position. The index of the first item is 0, and the index of the last item is the
+length of the list minus 1. As sequences, lists and strings share many of the same operators,
+but they include different sets of methods. We now examine these in detail.
