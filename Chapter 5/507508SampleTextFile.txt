@@ -1,0 +1,41 @@
+This is a sample text file that can be used as input for Python Exercises 5.07.
+
+Design is important in many fields. The architect who designs a building, the engineer
+who designs a bridge or a new automobile, and the politician, advertising executive, or
+army general who designs the next campaign must organize the structure of a system
+and coordinate the actors within it to achieve its purpose. Design is equally important in
+constructing software systems, some of which are the most complex artifacts ever built
+by human beings. In this chapter, we explore the use of functions to design software
+systems.
+A Quick Review of What Functions
+Are and How They Work
+We have been using built-in functions since Chapter 2, and we very briefly discussed how
+to define functions in Chapter 5 so we could use them in some case studies. Before we delve
+into the use of functions in designing programs, it will be a good idea to review what you
+have learned about functions thus far.
+1. A function packages an algorithm in a chunk of code that you can call by name. For
+example, the reply function in the doctor program of Chapter 5 builds and returns
+a doctor’s reply to a patient’s sentence.
+2. A function can be called from anywhere in a program’s code, including code
+within other functions. During program execution, there may be a complex chain
+of function calls, where one function calls another and waits for its results to be
+returned, and so on. For example, in the doctor program, the main function calls
+the reply function, which in turn calls the changePerson function. The result of
+changePerson
+is returned to reply, whose result is returned to main.
+3. A function can receive data from its caller via arguments. For example, the doctor
+program’s reply function expects one argument—a string representing the patient’s
+sentence. However, some functions, like those of the sentence generator program of
+Chapter 5, need no arguments to do their work.
+4. When a function is called, any expressions supplied as arguments are first evaluated.
+Their values are copied to temporary storage locations named by the parameters
+in the function’s definition. The parameters play the same role as variables in
+the code that the function then executes.
+5. A function may have one or more return statements, whose purpose is to terminate
+the execution of the function and return control to its caller. A return
+statement may be followed by an expression. In that case, Python evaluates the
+expression and makes its value available to the caller when the function stops execution.
+For example, the doctor program’s reply function returns either the value
+returned by the random.choice function or the value returned by the changePerson
+function. If a function does not include a return statement, Python automatically
+returns the value None to the caller.
